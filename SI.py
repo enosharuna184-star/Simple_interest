@@ -1,8 +1,8 @@
-def Simple_interest(P, R, T):
-    return (P*R*T)/100
-if __name__=="__main__":
-  P = 4
-  R = 5
-  T = 2
+def Simple_interest(p, t, r):
+    return (p * t * r) / 100
 
-print("Simple Interest=", Simple_interest(P,T,R))
+if __name__ == "__main__":
+    P = 4
+    T = 2
+    R = 5
+    print("Simple Interest=", Simple_interest(P, T, R))
