@@ -5,4 +5,4 @@ P = 4
 R = 5
 T = 2
 
-print("Simple Interest=", Simple_interest(4,5,2))
+print("Simple Interest=", Simple_interest(P,T,R))
