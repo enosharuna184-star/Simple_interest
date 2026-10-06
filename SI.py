@@ -1,8 +1,8 @@
 def Simple_interest(P, R, T):
     return (P*R*T)/100
+if __name__=="__main__"
+P = 4
+R = 5
+T = 2
 
-P = int(input("Enter principal: "))
-R = int(input("Enter rate: "))
-T = int(input("Enter time: "))
-
-print("Simple Interest=", Simple_interest(P,R,T))
+print("Simple Interest=", Simple_interest(4,5,2))
